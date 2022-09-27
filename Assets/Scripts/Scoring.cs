@@ -13,8 +13,8 @@ public class Scoring : MonoBehaviour
 
     private void Update()
     {
-        scoring.text = "Score: " + score.ToString();
-        turnsTxt.text = "Moves :" + turns.ToString();
+        scoring.text = "Match Score: " + score.ToString();
+        turnsTxt.text = "Un-matched Moves :" + turns.ToString();
 
         Loss();
         Victory();
